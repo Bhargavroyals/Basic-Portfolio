@@ -1,0 +1,112 @@
+*{
+    font-family: monospace;
+}
+
+body{
+    font-size: 15px;
+    margin: 0;
+
+}
+
+header{
+    height: 100vh;
+    color: white;
+    background-color: #3aa89f;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+h1{
+    font-size: 50px;
+    color: #3aa89f;
+}
+header h1{
+    color: white;
+    text-align: center;
+}
+.button{
+    margin: 30px; 
+   height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+cursor: pointer;
+flex-direction: row;
+
+}
+.button:hover{
+    color: white;
+    background-color: skyblue;
+}
+img{
+    height: 200px;
+    width: 300px;
+}
+section{
+    height: 100vh;
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+form div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+}
+a{
+    text-decoration: none;
+}
+main{
+    padding: 20px;
+}
+.submit{
+    height: 30px;
+    width: 120px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+cursor: pointer;
+background-color: #3aa89f;
+}
+.submit:hover{
+    background-color: #26817a;
+
+
+
+}
+input{
+    border-radius:  5px;
+    border: 1px solid lightgrey;
+    height: 25px;
+}.fixedbutton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    background-color: #26817a;
+}
+footer{
+    height: 130px;
+    background-color: black;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
